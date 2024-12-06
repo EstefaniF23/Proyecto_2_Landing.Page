@@ -143,3 +143,34 @@ footer {
     padding: 20px; /* Espaciado interno */
     color: white; /* Color del texto */
   }
+
+  /* Media Queries para dispositivos móviles */
+@media (max-width: 786px) {
+  .hero_section {
+    min-height: 50vh; /* Altura mínima del 50% de la ventana */
+  }
+  .text_container {
+    padding: 10px 0; /* Espaciado superior e inferior */
+    text-align: center; /* Centra el texto */
+  }
+  .lg_text {
+    font-size: 32px; /* Tamaño de fuente */
+  }
+  .black_box h2 {
+    font-size: 24px; /* Tamaño de fuente */
+  }
+  .black_box h2 span {
+    font-weight: 400; /* Peso de fuente normal */
+    font-size: 32px; /* Tamaño de fuente */
+  }
+  .bottom_section {
+    flex-direction: column; /* Dirección de los elementos en columna */
+  }
+  h1 {
+    font-size: 32px; /* Tamaño de fuente */
+  }
+  .about h2,
+  .contact h2 {
+    font-size: 32px; /* Tamaño de fuente */
+  }
+}
